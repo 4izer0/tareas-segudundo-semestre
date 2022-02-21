@@ -504,7 +504,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -33, y: -77}
+  m_AnchoredPosition: {x: -33, y: -162}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &688283113
@@ -789,7 +789,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -31, y: -29}
+  m_AnchoredPosition: {x: -29, y: -109}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &875844182
@@ -867,13 +867,18 @@ MonoBehaviour:
   - 
   - 
   preguntas:
-  - 'mi perro se llama '
-  - que es lo que come
-  - 'que es lo que come 01 '
-  - que es lo que come 02
-  - que es lo que come 03
-  - que es lo que come 04
-  historia: mi perro se
+  - En medio de un enfrentamiento de 2 reinos a lo lejos ven a un guerrero que es
+    apodado
+  - 'es considerado como un gran dios spartano por que tiene la fuerza de 100 hombres
+    cuando sostiene su '
+  - "es como un bestia m\xEDstica en el momento de la batalla, antes de ir a la batalla
+    dice \u201Chasta que su sangre sea su \xFAltimo aliento\u201D  en ese momento
+    vio algo caer en medio de la ballata "
+  - que hizo que tirara su
+  - "ya que lo estaba observando sin parpadear, en ese preciso momento vio que enfrente
+    de el paso una flecha, cuando regres\xF3 a la mirada vio que se hab\xEDa"
+  - 'y mirando la '
+  historia: 
   textoPreguntas: {fileID: 1915873421}
   textohistoria: {fileID: 1535998696}
   inputRespuesta: {fileID: 875844180}
@@ -1466,7 +1471,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -110.6568, y: -51.998047, z: -47.92856, w: 0}
+  m_margin: {x: -110.6568, y: -51.998047, z: -371.50262, w: -115.00229}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1497,6 +1502,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 71, y: 41}
+  m_AnchoredPosition: {x: -140, y: 90}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
