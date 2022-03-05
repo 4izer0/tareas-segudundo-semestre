@@ -18,16 +18,25 @@ public class GamesManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        textoPreguntas.text = preguntas[0 * 1];
+        string textoAFormatear = "soy {0} y tengo solo {1}, años, a {0} le gusta el numero {1}";
+        string[] textos = new string[] { "toño", "10" };
+        string mesnsaje = string.Format(textoAFormatear, textos);
+        Debug.Log(mesnsaje);
+
+
+        textoPreguntas.text = preguntas[indicePregunta];
 
         palabrasGuardadas = new string[preguntas.Length];
+
+
+
 
     }
 
     public void GuardarRespuesta()
     {
         //Guardar lo que escribio
-        palabrasGuardadas[0] = inputRespuesta.text;
+        palabrasGuardadas[indicePregunta] = inputRespuesta.text;
 
         //Limpiar el texto para que el jugador pueda escribir de nuevo
         inputRespuesta.text = "";
@@ -54,7 +63,7 @@ public class GamesManager : MonoBehaviour
 
         //todo mostrar un nuevo textmesh pro que tenga toda la historia
         textohistoria.gameObject.SetActive(true);
-        textohistoria.text = historia;
+        textohistoria.text = string.Format(historia, palabrasGuardadas);
         //todo oculta5r los elementos
 
         textoPreguntas.gameObject.SetActive(false);
