@@ -2,6 +2,8 @@
 
 Text Zerito es un juego creado en Unity3D para explicar el uso de TextMeshPro y bases de Anchors de Unity.
 
+para probar el juego ingresar [aqui](https://aizer0.itch.io/text-zerito)
+
 ## Inalación
 
 para descargar este proyecto necesitas correr el siguiente comando en tu terminal
@@ -16,7 +18,12 @@ los objetivos de este juego se enumera a continuacion y se muestra su progreso.
 - [x] Finalizar el game loop
 - [x] crear version
 - [x] Publicar eljuego
-- [ ] compartir juego
+- [x] compartir juego
+
+## Autores
+
+* Ismael Martinez - programador - [@4izer0](https://github.com/4izer0)
+* Francisco Castañeda - instructor - [@dragaus](https://github.com/dragaus)
 
 
 ## Requesitos.
