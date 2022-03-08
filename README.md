@@ -10,7 +10,16 @@ para descargar este proyecto necesitas correr el siguiente comando en tu termina
 git clone https://github.com/4izer0/tareas-segudundo-semestre.git
 ```
 
-### Requesitos 
+## Objetivo
+los objetivos de este juego se enumera a continuacion y se muestra su progreso.
+- [x] Hacer core mechanics
+- [x] Finalizar el game loop
+- [x] crear version
+- [x] Publicar eljuego
+- [ ] compartir juego
+
+
+## Requesitos.
 
 Los requisitos para utilizar este repositorio son:
 
